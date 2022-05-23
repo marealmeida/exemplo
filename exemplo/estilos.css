@@ -1,0 +1,42 @@
+/* Minhas cores */
+:root{
+--fundo: #d772eb;
+--gradientedefundo: linear-gradient(90deg, rgb(124, 193, 233) 0%, rgb(255, 255, 255) 35%, rgb(218, 118, 231) 100%);
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background: var(--gradientedefundo); 
+    color: rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;   
+}
+
+h1, h2{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+}
+
+h1 {
+    
+}
+
+img{
+    margin: 5px auto;        
+    width: 50%;
+    display: block;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    border: none;
+    padding: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: large;
+}
+button:hover{
+    opacity: .8;
+}
